@@ -30,7 +30,7 @@ body{
 }
 .card{
    display: flex;
-   font-family: Karla;
+   flex-direction: row;
     
 }
 .left-box{
@@ -78,4 +78,19 @@ body{
     line-height: 17px;
     padding: 3%;
     opacity: 80%;
+}
+@media (max-width: 375px) {
+    .card{
+        display: inline;
+    }
+    .left-box ,.right-box{
+        width: auto;
+    }
+    .container{
+        padding-top: 25px;
+        height: auto;
+        width: auto;
+    }
+
+    
 }
