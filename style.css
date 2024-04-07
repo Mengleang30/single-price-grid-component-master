@@ -1,0 +1,81 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(0, 0%, 97%);
+    height: 100vh;
+}
+.container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    background-color:white;
+    
+}
+.text-above{
+    padding: 1rem;
+}
+.text-above h2{
+    color: rgb(2, 164, 110);
+    
+}
+.text-above h4{
+    color:hsl(66, 89%, 47%);
+    
+}
+.text-above p{
+    opacity: 50%;
+    font-size: small;
+    
+}
+.card{
+   display: flex;
+   font-family: Karla;
+    
+}
+.left-box{
+    display: grid;
+    padding: 2rem;
+    width: 250px;
+    color: aliceblue;
+    background-color: hsl(179, 62%, 43%);
+}
+.left-box span{
+    font-size: 30px;
+}
+.left-box label{
+    font-size: 14px;
+    padding: 3%;
+    opacity: 60%;
+}
+.left-box p{
+    font-size: 14px;
+    opacity: 80%;
+}
+.left-box button{
+    background-color: rgb(179, 226, 107);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    cursor: pointer;
+    
+}
+.Price{
+    column-gap: 8px;
+    display:flex;
+    align-items: center;
+}
+.right-box{
+    color: aliceblue;
+    width: 250px;
+    padding: 2rem;
+    background-color: hsl(179, 43%, 50%);
+}
+.right-box p{
+    font-size: 12px;
+    line-height: 17px;
+    padding: 3%;
+    opacity: 80%;
+}
