@@ -91,6 +91,9 @@ body{
         height: auto;
         width: auto;
     }
+    .attribution{
+        font-size:14px,
+    }
 
     
 }
